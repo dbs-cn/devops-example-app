@@ -24,8 +24,8 @@ services:
 
   worker:
     build:
-    image: jiezhang/worker:fortest
       context: ./worker
+    image: jiezhang/worker:fortest
     networks:
       - back-tier
 
