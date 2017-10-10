@@ -13,7 +13,7 @@ services:
 
   result:
     build: ./result
-    image: jiezhang/vote:fortest
+    image: jiezhang/result:fortest
     command: nodemon --debug server.js
     ports:
       - "5001:80"
