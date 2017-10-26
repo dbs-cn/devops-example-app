@@ -1,0 +1,1 @@
+jmeter -n -t webtest.jmx -Jhost=localhost -Jport=8080 -Jpath='/WebExample/' -l webtestResults.jtl
