@@ -7,7 +7,7 @@ display = Display(visible=0, size=(800, 600))
 display.start()
 
 driver = webdriver.Firefox()
-url = os.environ.get('devops_endpoint','http://localhost:8080/WebExample/')
+url = os.environ.get('devops_endpoint','http://localhost:8000/WebExample/')
 driver.get(url)
 
 html = driver.page_source
