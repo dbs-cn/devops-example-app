@@ -13,7 +13,7 @@ services:
     ports:
       - "8000:8080"
     environment:
-      - devops_exmple_url=http://restfulexample:8080/RESTfulExample/rest/person/Bo
+      - devops_exmple_url=http://restfulexample:8080/RESTfulExample/rest/person/
     networks:
       - front-tier
       - back-tier
