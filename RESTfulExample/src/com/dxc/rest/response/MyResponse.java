@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 
 public class MyResponse {
 	
-	public static String DEFAULT_NAME = "Mary";
+	public static String DEFAULT_NAME = "David";
 	
 	public MyResponse() {
 		super();
